@@ -1,0 +1,28 @@
+main:
+	t0=0*4
+	t1=a+t0
+	MEM(t1)=0
+	t2=1*4
+	t3=a+t2
+	MEM(t3)=1
+	t4=2*4
+	t5=a+t4
+	t6=0*4
+	t7=a+t6
+	t8=1*4
+	t9=a+t8
+	t10=MEM(t9)*0
+	t11=MEM(t7)+t10
+	MEM(t5)=t11
+	t12=3*4
+	t13=a+t12
+	t14=1*4
+	t15=a+t14
+	t16=2*4
+	t17=a+t16
+	t18=MEM(t17)*0
+	t19=MEM(t15)+t18
+	MEM(t13)=t19
+	v0=0
+	rtn
+

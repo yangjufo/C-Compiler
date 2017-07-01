@@ -1,0 +1,19 @@
+f1:
+	s=a
+	v0=s
+	rtn
+
+f2:
+	v0=1
+	rtn
+
+main:
+	a=1
+	b=2
+	call f1(a)
+	a=v0
+	call f2(b)
+	b=v0
+	v0=0
+	rtn
+

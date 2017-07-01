@@ -1,0 +1,12 @@
+FUNCTION {
+ name: main returnType: int returnValue: null 
+ params: {
+ }
+ variables: {
+ }
+}
+GLOBAL_VARIABLE {
+   name: a type: int isStatic: true isConst: false
+   name: b type: int isStatic: true isConst: false
+
+}

@@ -1,0 +1,29 @@
+FUNCTION {
+ name: f1 returnType: int returnValue: null 
+ params: {
+   name: a type: int isStatic: false isConst: false
+ }
+ variables: {
+   name: s type: int isStatic: false isConst: false
+ }
+}
+FUNCTION {
+ name: f2 returnType: int returnValue: null 
+ params: {
+   name: b type: int isStatic: false isConst: false
+ }
+ variables: {
+ }
+}
+FUNCTION {
+ name: main returnType: int returnValue: null 
+ params: {
+ }
+ variables: {
+   name: a type: int isStatic: false isConst: false
+   name: b type: int isStatic: false isConst: true
+ }
+}
+GLOBAL_VARIABLE {
+
+}
